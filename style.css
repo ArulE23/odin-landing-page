@@ -21,10 +21,16 @@ body {
   background-color: #1F2937;
   color: white;
   height: 536px;
-  padding: 16px 208px 136px;
+  padding: 16px 0px 136px;
+}
+
+.header-content {
+  height: 384px;
+  width: 1024px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin: 0 auto;
 }
 
 .top {
