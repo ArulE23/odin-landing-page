@@ -84,10 +84,9 @@ li {
   font-weight: 300;
 }
 
-.main button {
+button {
   margin: 0px;
   background-color: #3882F6;
-  border: none;
   border-radius: 8px;
   width: 128px;
   padding: 8px;
@@ -95,6 +94,10 @@ li {
   font-size: 18px;
   color: #F9FAF8;
   cursor: pointer;
+}
+
+.main button {
+  border: none;
 }
 
 .hero-image {
@@ -145,7 +148,7 @@ li {
 
 #quote {
   background-color: #E5E7EB;
-  height: 436px;
+  height: 432px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -169,4 +172,40 @@ li {
   color: #1F2937;
   font-weight: 900;
   font-size: 24px;
+}
+
+#call-to-action {
+  height: 368px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner {
+  height: 152px;
+  width: 1016px;
+  background-color: #3882F6;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  padding: 52px 120px;
+  align-items: flex-end;
+}
+
+.banner-text h3 {
+  margin: 0px;
+  font-size: 24px;
+  color: #F9FAF8;
+  font-weight: 600;
+}
+
+.banner-text p {
+  margin: 0px;
+  font-size: 18px;
+  color: #E5E7EB;
+  font-weight: 300;
+}
+
+.banner button {
+  border: 2px solid #F9FAF8;
 }
