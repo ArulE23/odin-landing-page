@@ -209,3 +209,18 @@ button {
 .banner button {
   border: 2px solid #F9FAF8;
 }
+
+#footer {
+  background-color: #1F2937;
+  color: #E5E7EB;
+  height: 96px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+#footer span {
+  margin: 8px;
+}
